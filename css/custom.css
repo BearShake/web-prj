@@ -1,0 +1,20 @@
+.well{
+    background-color: #9acfea;
+}
+
+.container-fluid{
+    margin: 0px;
+
+}
+
+body{
+    background-color: #8c8c8c;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+.login{
+    float: right;
+}
