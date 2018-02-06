@@ -14,8 +14,10 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
 
-        <link rel="stylesheet" href="bootstrap/bootstrap-4.0.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
 
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
 
@@ -28,17 +30,31 @@
         <![endif]-->
 
 
-        <div class="row">
-            <div class="col-sm-4">.col-sm-4</div>
-            <div class="col-sm-4">.col-sm-4</div>
-            <div class="col-sm-4">.col-sm-4</div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">WebSiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                    <li><a href="index.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="well text-white">
+                <h3>Basic Navbar Example</h3>
+                <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+            </div>
+
         </div>
 
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="bootstrap/bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+        <script src="js/bootstrap.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
@@ -50,5 +66,7 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>
