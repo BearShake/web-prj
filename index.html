@@ -32,7 +32,7 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html">ZaaS</a>
                 </div>
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav slideanim" id="topbar">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="index.html">CONTACT</a></li>
                     <li><a href="index.html">CONTACT</a></li>
@@ -43,7 +43,7 @@
                     <li>
                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Login</button>
                     </li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in slideanim"></span> Login</a></li>
                 </ul>
             </div>
         </nav>
@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <h3>Home</h3>
             <div class="row">
                 <div class="col-sm-10">
@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="col-md-2">
-                    <iframe src="https://discordapp.com/widget?id=408706792835645441&theme=dark"  allowtransparency="true"  frameborder="0"></iframe>
+                    <iframe src="https://discordapp.com/widget?id=408706792835645441&theme=dark" allowtransparency="true"  frameborder="0"></iframe>
                 </div>
 
 
@@ -108,19 +108,101 @@
                             Our coding staff has over 22 years combined expertise in the cheating industry; that means you can expect to remain undetected and safe using our products.
                         </p>
                         <div class="row">
-                            <div class="col-md-3"><div class="placement"><img src="img/ic.png" alt="1"></div></div>
+                            <div class="col-md-3"><div class="placement slideanim"><img src="img/ic.png" alt="1"></div></div>
                             <div class="col-md-3"><div class="placement"><a href="">HERE</a></div></div>
                             <div class="col-md-3"><div class="placement"><a href="">HERE</a></div></div>
                         </div>
 
 
                     </div>
-
+                    <div class="col-sm-4">
+                        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">Hellogellohello</div>
+                <div class="col-md-4"><div class="glyphicon-hand-right">LLLOOOL</div></div>
+                <div class="col-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+            <div class="row slideanim">
+                <div class="col-md-4">MISSION: Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+                <div class="col-md-4">VISION: Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">Jupiter is the largest planet in the Solar System. It is the fifth planet from the Sun. Jupiter is classified as a gas giant. This is because it is very big and made up of gas. The other gas giants are Saturn, Uranus and Neptune. Jupiter has a mass of 1.8986×1027 kg or about 317.8 Earths. This is twice the mass of all the other planets in the Solar System put together.
+
+                    Jupiter was known to the ancient Romans. They named it for the Roman god Jupiter. Jupiter is the third brightest object in the night sky. Only the Earth's moon and Venus are brighter. Jupiter has at least 63 moons. 55 of these moons are very small at less than 5 km wide. The four main moons are Io, Europa, Ganymede and Callisto. These moons are the largest. These four are called the Galilean moons. They are called this because they were discovered by the Italian astronomer Galileo Galilei. Ganymede is the largest moon in the Solar System.
+
+                </div>
+                <div class="col-md-6">Jupiter is the largest planet in the Solar System. It is the fifth planet from the Sun. Jupiter is classified as a gas giant. This is because it is very big and made up of gas. The other gas giants are Saturn, Uranus and Neptune. Jupiter has a mass of 1.8986×1027 kg or about 317.8 Earths. This is twice the mass of all the other planets in the Solar System put together.
+
+                    Jupiter was known to the ancient Romans. They named it for the Roman god Jupiter. Jupiter is the third brightest object in the night sky. Only the Earth's moon and Venus are brighter. Jupiter has at least 63 moons. 55 of these moons are very small at less than 5 km wide. The four main moons are Io, Europa, Ganymede and Callisto. These moons are the largest. These four are called the Galilean moons. They are called this because they were discovered by the Italian astronomer Galileo Galilei. Ganymede is the largest moon in the Solar System.
+
+                </div>
+            </div>
+
+        </div>
 
 
+        <script>
+            $(document).ready(function(){
+                // Add smooth scrolling to all links in navbar + footer link
+                $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 900, function(){
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
+
+                $(document).ready(function () {
+
+                    $("#topbar").addClass("slide");
+                })
+
+
+                $(window).scroll(function() {
+                    $(".slideanim").each(function(){
+                        var pos = $(this).offset().top;
+
+                        var winTop = $(window).scrollTop();
+                        if (pos < winTop + 600) {
+                            $(this).addClass("slide");
+                        }
+                    });
+                });
+            })
+        </script>
+
+
+        <script>$(window).scroll(function() {
+            if ($(window).scrollTop() > 5) {
+                $('.navbar').addClass('bg-faded');
+            }
+        });
+        </script>
 
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
